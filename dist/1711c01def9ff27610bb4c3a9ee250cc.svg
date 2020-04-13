@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30"
+   height="30"
+   viewBox="0 0 7.9374997 7.9375003"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/irina/Документы/Iry/SkillBox2019/2/Block18/18/src/img/favicon/favicon.svg.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.919596"
+     inkscape:cx="11.88961"
+     inkscape:cy="8.0211957"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="695"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-289.06248)">
+    <rect
+       style="fill:#916f8a;stroke:#444444;stroke-width:0.04870397;stroke-opacity:0.94117647"
+       id="rect4529"
+       width="4.6616659"
+       height="5.287859"
+       x="67.440582"
+       y="282.95688"
+       ry="0.24351983"
+       transform="rotate(12.728693)" />
+    <rect
+       ry="0.18824723"
+       y="283.32217"
+       x="67.762604"
+       height="4.0876541"
+       width="4.0176196"
+       id="rect4531"
+       style="fill:#ffaacc;stroke:none;stroke-width:0.0397535"
+       transform="rotate(12.728693)" />
+    <rect
+       ry="0.24351989"
+       y="281.58493"
+       x="-73.249458"
+       height="5.2878599"
+       width="4.6616664"
+       id="rect4523"
+       style="fill:#c8b7c4;stroke:#444444;stroke-width:0.04870397;stroke-opacity:0.94117647"
+       transform="rotate(-14.570842)" />
+    <rect
+       style="fill:#ffeeaa;stroke:none;stroke-width:0.0397535"
+       id="rect4525"
+       width="4.0176201"
+       height="4.0876541"
+       x="-72.927437"
+       y="281.95023"
+       ry="0.18824726"
+       transform="rotate(-14.570842)" />
+    <rect
+       style="fill:#ac93a7;stroke:#444444;stroke-width:0.04870397;stroke-opacity:0.94117647"
+       id="rect4515"
+       width="4.6616659"
+       height="5.287859"
+       x="1.5979272"
+       y="289.22382"
+       ry="0.24351986" />
+    <rect
+       ry="0.18824723"
+       y="289.58905"
+       x="1.9199499"
+       height="4.0876541"
+       width="4.0176196"
+       id="rect4517"
+       style="fill:#ece7eb;fill-opacity:1;stroke:none;stroke-width:0.0397535" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff5555;stroke-width:0.25155792;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 2.5841651,290.73798 c -0.7191343,0.94415 0.8686209,1.53322 1.3229554,2.29683 0.4543343,-0.76361 2.0420894,-1.35268 1.322955,-2.29683 -0.4714697,-0.49512 -1.001874,-0.1335 -1.322955,0.43877 -0.3562209,-0.60374 -0.8091814,-0.93829 -1.3229554,-0.43877 z"
+       id="path819"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
