@@ -32,6 +32,11 @@ class Photos extends React.Component {
     return (
       <div
        className="container gallery">
+         if (errorMessage) {
+           <div className="error">
+             Ошибка: {errorMessage}
+           </div>
+         }
         <ul
          className="gallery_col">
       {
