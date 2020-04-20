@@ -1,0 +1,14 @@
+.login {
+  text-align: center;
+}
+.btn-submit {
+  color: #FFF;
+  background-color: #ff5555;
+  border-color: #ff5555;
+}
+.btn-submit:hover,
+.btn-submit:active,
+.btn-submit:focus {
+  background-color: #da3939;
+  border-color: #da3939;
+} 

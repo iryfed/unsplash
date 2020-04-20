@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Like from '../components/like.js';
 
+import '../styles/photodetailattr.css';
 
 const PhotoDetailAttr = ({ detailPhoto }) => {
   const {

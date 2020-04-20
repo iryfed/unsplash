@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import Like from '../components/like.js';
 
+import '../styles/photo.css';
+
 
 const Photo = ({ photo }) => {
   const {

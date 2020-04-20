@@ -1,0 +1,30 @@
+.gallery {
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  color: #b6b6b6;
+}
+.gallery_col {
+  flex: 100%;
+  max-width: 100%;
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end:0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+.btn-more {
+  margin: 20px;
+  color: #FFF;
+  background-color: #ac93a7;
+  border-color: #ac93a7; 
+}
+.btn-more:hover,
+.btn-more:focus,
+.btn-more:active {
+  background-color: #916f8a;
+  border-color: #916f8a;
+}

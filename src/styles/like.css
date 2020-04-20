@@ -1,0 +1,29 @@
+.gallery__item__likes .text {
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.15);
+}
+.gallery__item__likes .liked:hover,
+.gallery__item__likes .like {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  background-image: url('../img/icons.svg');
+  background-repeat: no-repeat;
+  background-position: -30px 0;
+  cursor: pointer;
+}
+.gallery__item__likes .like:hover,
+.gallery__item__likes .liked {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  background-image: url('../img/icons.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+}
+

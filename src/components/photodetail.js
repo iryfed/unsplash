@@ -9,6 +9,7 @@ import Modal from 'react-responsive-modal';
 
 import PhotoDetailAttr from '../components/photodetailattr.js';
 
+import '../styles/photodetail.css';
 
 const PhotoDetail = ({ photoData, match: { params } }) => {
 

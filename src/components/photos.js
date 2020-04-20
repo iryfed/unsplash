@@ -5,6 +5,8 @@ import { unsplash, authenticationUrl } from '../api/unsplashAPI.js';
 import { setPhoto } from '../redux/actions/index.js';
 import Photo from '../components/photo.js';
 
+import '../styles/photos.css';
+
 
 class Photos extends React.Component {
 
@@ -26,29 +28,36 @@ class Photos extends React.Component {
   }
 
   render () {
-    const { photos, isFetching, errorMessage } =this.props
+    const { photos, isFetching, errorMessage, currentPage, setPhoto } = this.props
     let num = 0
 
     return (
       <div
        className="container gallery">
-         if (errorMessage) {
-           <div className="error">
-             Ошибка: {errorMessage}
-           </div>
-         }
+         <div className="error">
+           {errorMessage}
+         </div>
         <ul
          className="gallery_col">
       {
         photos.map(photo =>
           <Photo
            key={num++}
-           className=""
            photo={photo} 
           />
         )
       }
         </ul>
+        <button
+         className="btn btn-more"
+         onClick={ev => {
+           if(!this.props.isFetching) {
+             setPhoto(currentPage)
+           }
+        }}
+        >
+          загрузить еще фото
+        </button>
       </div>
     )
   }

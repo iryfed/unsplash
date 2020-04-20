@@ -4,6 +4,8 @@ import { debounce } from 'lodash';
 
 import { setLike, deleteLike } from '../redux/actions/index.js';
 
+import '../styles/like.css';
+
 
 const Like = ({ likeCount, photoId, isLiked, deleteLike, setLike, photoData }) => {
 

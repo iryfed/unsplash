@@ -1,0 +1,80 @@
+.gallery__item {
+  margin-bottom: 8px;
+}
+.gallery__item__img {
+  vertical-align: middle;
+  width: 100%;
+}
+.gallery__item {
+  position: relative;
+}
+.gallery__item__attrs {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  color: #fff;
+  background-color: rgba(0,0,0,.4);
+}
+.gallery__item__attrs {
+  opacity: 0;
+  transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+.gallery__item__attrs:hover,
+.gallery__item__attrs:focus,
+.gallery__item__attrs:active {
+  opacity: 1;
+  transition-delay: 0s;
+}
+.gallery__item__header,
+.gallery__item__footer {
+  font-size: .9em;
+}
+.gallery__item__header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  align-self: flex-start;
+}
+.gallery__item__user {
+  margin-right: 10px;
+  text-transform: capitalize;
+  font-size: 1.4em;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.15);
+}
+.gallery__item__user a {
+  text-decoration: none;
+  color: inherit;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.15);
+}
+.gallery__item__user a:hover {
+  color: #ff5555;
+
+}
+.gallery__item__user img {
+  margin-right: 6px;
+  border-radius: 50%;
+}
+.gallery__item__footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+.gallery__item__detail_link {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  background-image: url('../img/zoom.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  cursor: pointer;
+}
+

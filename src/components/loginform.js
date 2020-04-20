@@ -4,6 +4,7 @@ import { withRouter } from "react-router-dom";
 
 import { authenticationUrl } from '../api/unsplashAPI.js';
 
+import '../styles/loginform.css';
 
 const LoginForm = () => {
   const onAutorization = () => {

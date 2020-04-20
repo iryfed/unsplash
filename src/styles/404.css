@@ -1,0 +1,17 @@
+.error {
+  text-align: center;
+}
+.error h1 {
+  font-size: 5em;
+}
+.btn-home {
+  padding-left: 46px;
+  background-image: url('../img/favicon/favicon.svg');
+  background-repeat: no-repeat;
+  background-color: #ece7eb;
+  background-position: 20px 50%;
+}
+.btn-home:hover {
+    background-color: #e3dbe2;
+}
+
