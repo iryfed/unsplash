@@ -30,13 +30,16 @@ class Photos extends React.Component {
   render () {
     const { photos, isFetching, errorMessage, currentPage, setPhoto } = this.props
     let num = 0
+    
+    if (errorMessage) {
+      <div className="error">
+        {errorMessage}
+      </div>
+    } else {
 
     return (
       <div
        className="container gallery">
-         <div className="error">
-           {errorMessage}
-         </div>
         <ul
          className="gallery_col">
       {
@@ -60,6 +63,7 @@ class Photos extends React.Component {
         </button>
       </div>
     )
+  }
   }
 }
 
